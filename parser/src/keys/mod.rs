@@ -263,6 +263,7 @@ pub fn str_to_oscode(s: &str) -> Option<OsCode> {
         "VolumeUp" | "volu" | "🔊" | "🔈+" | "🔈➕" | "🔈₊" | "🔈⊕" => OsCode::KEY_VOLUMEUP,
         "VolumeDown" | "voldwn" | "vold" | "🔉" | "🔈−" | "🔈➖" | "🔈₋" | "🔈⊖" => OsCode::KEY_VOLUMEDOWN,
         "brup" | "bru" | "🔆" => OsCode::KEY_BRIGHTNESSUP,
+        "svm" => OsCode::KEY_SWITCHVIDEOMODE,
         "brdown" | "brdwn" | "brdn" | "🔅" => OsCode::KEY_BRIGHTNESSDOWN,
         "blup" | "⌨💡+" | "⌨💡➕" | "⌨💡₊" | "⌨💡⊕" => OsCode::KEY_KBDILLUMUP,
         "bldn" | "⌨💡−" | "⌨💡➖" | "⌨💡₋" | "⌨💡⊖" => OsCode::KEY_KBDILLUMDOWN,
