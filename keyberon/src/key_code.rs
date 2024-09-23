@@ -226,8 +226,9 @@ pub enum KeyCode {
     // According to QMK, 0xA5-0xDF are not usable on modern keyboards. The keys below are
     // not real keys for USB codes; they are used only for kanata.
     Wakeup, // 0xA5
-    BrightnessUp,
     BrightnessDown,
+    BrightnessUp,
+    SwitchVideoMode,
     KbdIllumUp,
     KbdIllumDown,
     K0xAA,
